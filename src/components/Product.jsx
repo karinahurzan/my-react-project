@@ -7,9 +7,8 @@ export default function Product({
 }) {
   return (
     <div>
-            <h2>{name}</h2>
-            <img src={imgUrl} alt={name} width="480" />     {" "}
-      <p>Price: {price} credits</p>   {" "}
+      <h2>{name}</h2>
+      <img src={imgUrl} alt={name} width="480" /> <p>Price: {price} credits</p>{" "}
     </div>
   );
 }
